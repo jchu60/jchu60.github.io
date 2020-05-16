@@ -6,7 +6,7 @@
        <title>Fixed Width 2 Blue</title>
        <style type="text/css">
            html, #page { padding:0; margin:0;}
-           body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;}
+           body { margin:0; padding:0; width:100%; color:#535353; font:normal 14px/2.0em Sans-Serif;}
            h1, h2, h3, h4, h5, h6 {color:darkblue;}
            #page { background:#eee;}
            #header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
@@ -72,104 +72,155 @@
    </head>
    <body>
 
-        <form action="/action_page.php">
-            <p>A teenager drives by my yard with the car stereo blaring acid rock.</p>
+        <form action="process.asp" method="post">
+            <p>1. A teenager drives by my yard with the car stereo blaring acid rock.</p>
             <input type="radio" id="male" name="q1" value="A">
-            <label for="male">I begin to understand why teenagers can't hear.</label><br>
+            <label for="male">A. I begin to understand why teenagers can't hear.</label><br>
             <input type="radio" id="female" name="q1" value="B">
-            <label for="female">I can feel my blood pressure starting to rise.</label><br>
+            <label for="female">B. I can feel my blood pressure starting to rise.</label><br>
             <br>  
             
-            <p>The person who cuts my hair trims off more than I wanted.</p>
+            <p>2. The person who cuts my hair trims off more than I wanted.</p>
             <input type="radio" id="male" name="q2" value="A">
-            <label for="male">I tell him or her what a lousy job he or she did.</label><br>
+            <label for="male">A. I tell him or her what a lousy job he or she did.</label><br>
             <input type="radio" id="female" name="q2" value="B">
-            <label for="female">I figure it'll grow back, and I resolve to give my instructions more forcefully next time.</label><br>
+            <label for="female">B. I figure it'll grow back, and I resolve to give my instructions more forcefully next time.</label><br>
             <br>  
             
-            <p>I am in the express checkout line at the supermarket, where a sign reads: "No more than 10 items, please!"</p>
+            <p>3. I am in the express checkout line at the supermarket, where a sign reads: "No more than 10 items, please!"</p>
             <input type="radio" id="male" name="q3" value="A">
-            <label for="male">I pick up a magazine to pass the time.</label><br>
+            <label for="male">A. I pick up a magazine to pass the time.</label><br>
             <input type="radio" id="female" name="q3" value="B">
-            <label for="female">I glance ahead to see if anyone has more than ten items.</label><br>
+            <label for="female">B. I glance ahead to see if anyone has more than ten items.</label><br>
             <br>  
             
-            <p>Many large cities have a visible number of homeless people.</p>
+            <p>4. Many large cities have a visible number of homeless people.</p>
             <input type="radio" id="male" name="q4" value="A">
-            <label for="male">I believe that the homeless are down and out because they lack ambition.</label><br>
+            <label for="male">A. I believe that the homeless are down and out because they lack ambition.</label><br>
             <input type="radio" id="female" name="q4" value="B">
-            <label for="female">The homeless are victims of illness or some other misfortune.</label><br>
+            <label for="female">B. The homeless are victims of illness or some other misfortune.</label><br>
             <br>  
             
-            <p>There have been times when I was very angry with someone.</p>
+            <p>5. There have been times when I was very angry with someone.</p>
             <input type="radio" id="male" name="q5" value="A">
-            <label for="male">I was always able to stop short of hitting them.</label><br>
+            <label for="male">A. I was always able to stop short of hitting them.</label><br>
             <input type="radio" id="female" name="q5" value="B">
-            <label for="female">I have, on occasion, hit or shoved them.</label><br>
+            <label for="female">B. I have, on occasion, hit or shoved them.</label><br>
             <br>  
             
+            <p>6. The newspaper contains a prominent news story about drug- related crime.</p>
+            <input type="radio" id="male" name="q6" value="A">
+            <label for="male">A. I wish the government had better educational/drug programs, even for pushers.</label><br>
+            <input type="radio" id="female" name="q6" value="B">
+            <label for="female">B. I wish we could put every drug pusher away for good.</label><br>
+            <br>  
             
+            <p>7. The prevalence of AIDS has reached epidemic proportions.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. This is largely the result of irresponsible behavior on the part of a small proportion of the population. </label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. AIDS is a major tragedy.</label><br>
+            <br>  
+            
+            <p>8. I sometimes argue with a friend or relative.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I find profanity an effective tool.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I hardly ever use profanity.</label><br>
+            <br>  
+            
+            <p>9. I am stuck in a traffic jam.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I usually am not particularly upset.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I quickly start to feel irritated and annoyed.</label><br>
+            <br>  
+            
+            <p>10. There is a really important job to be done.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I prefer to do it myself.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I am apt to call on my friends or co-workers to help.</label><br>
+            <br>  
+            
+            <p>11. Sometimes I keep my angry feelings to myself.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. Doing so can often prevent me from making a mountain out of a molehill.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. Doing so is usually a bad idea.</label><br>
+            <br>  
 
+            <p>12. Another driver butts ahead of me in traffic.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I usually flash my lights or honk my horn.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I stay farther back behind such a driver.</label><br>
+            <br>  
+
+            <p>13. Someone treats me unfairly.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I usually forget it rather quickly.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I am apt to keep thinking about it for hours.</label><br>
+            <br>  
+
+            <p>14. The cars ahead of me on an unfamiliar road start to slow and stop as they approach a curve.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I assume that there is a construction site ahead.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I assume someone ahead had a fender bender.</label><br>
+            <br>  
+
+            <p>15. Someone expresses an ignorant belief.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I try to correct him or her.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I am likely to let it pass.</label><br>
+            <br>  
+
+            <p>16. I am caught in a slow-moving bank or supermarket line.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I usually start to fume at people who dawdle ahead of me.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I seldom notice the wait.</label><br>
+            <br>  
+
+            <p>17. Someone is being rude or annoying.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I am apt to avoid him or her in the future.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I might have to get rough with him or her.</label><br>
+            <br> 
+
+            <p>18. An election year rolls around.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I learn anew that politicians are not to be trusted.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I am caught up in the excitement of pulling for my candidate.</label><br>
+            <br> 
+
+            <p>19. An elevator stops too long on a floor above where I am waiting</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I soon start to feel irritated and annoyed.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I start planning the rest of my day.</label><br>
+            <br> 
+
+            <p>20. I am around someone I don't like.</p>
+            <input type="radio" id="male" name="q5" value="A">
+            <label for="male">A. I try to end the encounter as soon as possible.</label><br>
+            <input type="radio" id="female" name="q5" value="B">
+            <label for="female">B. I find it hard not to be rude to him or her.</label><br>
+            <br> 
+
+
+            <input type="submit" value="Submit">
         </form>
-        
-    6. The newspaper contains a prominent news story about drug- related crime.
-    A. I wish the government had better educational/drug programs, even for pushers.
-    B. I wish we could put every drug pusher away for good.
+       
     
-    7. The prevalence of AIDS has reached epidemic proportions.
-    A. This is largely the result of irresponsible behavior on the part of a small proportion of the population. B. AIDS is a major tragedy.
     
-    8. I sometimes argue with a friend or relative.
-    A. I find profanity an effective tool.
-    B. I hardly ever use profanity.
     
-    9. I am stuck in a traffic jam.
-    A. I usually am not particularly upset.
-    B. I quickly start to feel irritated and annoyed.
     
-    10. There is a really important job to be done.
-    A. I prefer to do it myself.
-    B. I am apt to call on my friends or co-workers to help.
-    
-    11. Sometimes I keep my angry feelings to myself.
-    A. Doing so can often prevent me from making a mountain out of a molehill.
-    B. Doing so is usually a bad idea.
-    
-    12. Another driver butts ahead of me in traffic.
-    A. I usually flash my lights or honk my horn.
-    B. I stay farther back behind such a driver.
-    
-    13. Someone treats me unfairly.
-    A. I usually forget it rather quickly.
-    B. I am apt to keep thinking about it for hours.
-    
-    14. The cars ahead of me on an unfamiliar road start to slow and stop as they approach a curve.
-    A. I assume that there is a construction site ahead.
-    B. I assume someone ahead had a fender bender.
-    
-    I5. Someone expresses an ignorant belief.
-    A. I try to correct him or her.
-    B. I am likely to let it pass.
-    
-    16. I am caught in a slow-moving bank or supermarket line.
-    A. I usually start to fume at people who dawdle ahead of me.
-    B. I seldom notice the wait.
-    
-    17. Someone is being rude or annoying.
-    A. I am apt to avoid him or her in the future.
-    B. I might have to get rough with him or her.
-    
-    18. An election year rolls around.
-    A. I learn anew that politicians are not to be trusted.
-    B. I am caught up in the excitement of pulling for my candidate.
-    
-    19. An elevator stops too long on a floor above where I am waiting
-    A. I soon start to feel irritated and annoyed.
-    B. I start planning the rest of my day.
-    
-    20. I am around someone I don't like.
-    A. I try to end the encounter as soon as possible.
-    B. I find it hard not to be rude to him or her.
     
     21. I see a very overweight person walking down the street.
     A. I wonder why this person has such little self-control.
@@ -278,7 +329,7 @@
 
            <footer id="footer">
                <div id="footer-inner">
-                   <p>&copy; Copyright <a href="#">Your Site</a> &#124; <a href="#">Terms of Use</a> &#124; <a href="#">Privacy Policy</a></p>
+                   <p><a href="https://github.com/jchu60/">GitHub</a></p>
                    <div class="clr"></div>
                </div>
            </footer>
